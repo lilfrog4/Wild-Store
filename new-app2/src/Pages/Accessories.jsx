@@ -10,10 +10,10 @@ const Accessories = () => {
       <h1 className="h1">Аксессуары</h1>
       <div className="content">
         <div className="thing">
-          <a href="!#">
+          <a href="productA">
             <img src={rectangle9} alt="" />
           </a>
-          <a href="#!">
+          <a href="productA">
             <p className="signature">Шоппер “Logo”</p>
           </a>
         </div>

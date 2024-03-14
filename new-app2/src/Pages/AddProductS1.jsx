@@ -1,15 +1,18 @@
 import "./../Components/addproduct.css";
 import Header from "../Components/Header";
-import swear from './../img/Футболка “Danger”.jpg';
+import swear from './../img/s dw.jpg';
 function AddproductT() {
   return (
     <div>
       <Header />
-      <h1 className="h1">Футболка “Danger”</h1>
+      <h1 className="h1">Свитшот “Daniel Wildson”</h1>
       <div className="product">
         <img src={swear} alt="" className="img" />
         <div className="info">
-          <div className="price">2999₽</div>
+          <div className="price">4999₽</div>
+          
+
+
           <div class="sizes">
   <label>
     <input type="radio" name="size" value="M" class="qwe" />
@@ -36,6 +39,10 @@ function AddproductT() {
     <p>XS</p>
   </label>
 </div>
+
+
+
+          
 
           <button className="addToBusket">
             <a href="">Добавить в корзину</a>

@@ -42,22 +42,50 @@
   column-gap: 10px;
   justify-content: space-between;
 }
-.size {
+
+
+
+
+
+.qwe {
+  display: inline-block;
   width: 60px;
   height: 60px;
-  background-color: #474852;
   border-radius: 50%;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
-  font-family: Garamond;
+  cursor: pointer;
 }
 
-.size:hover {
+input[type='radio'] {
+  appearance: none;
+  border-radius: 50%;
+  background: rgb(92, 82, 82); /* Цвет внешнего круга */
+  opacity: 0.5;
+}
+
+input[type='radio']:hover {
+  opacity: 0.75;
+}
+
+input[type='radio']:checked {
+  opacity: 1;
+}
+
+
+label p{
+  color: #fff;
+  position: absolute;
+  text-align: center;
+   margin-left: 23px;
+   margin-top: -42px;
+   cursor: pointer;
+}
+/* .size:hover {
   background-color: rgb(92, 82, 82);
 }
+
+.size:active {
+  background-color: rgb(92, 82, 82);
+} */
 
 button {
   background: 0 0;
