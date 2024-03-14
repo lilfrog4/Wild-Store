@@ -11,7 +11,7 @@ function Header() {
       <div className="container">
         <div className="header__row">
           <div className="header__logo">
-            <a href="#">
+            <a href="logo">
               <img src={logoImg} alt="LOGO" />
             </a>
           </div>
@@ -23,7 +23,7 @@ function Header() {
           </div>
 
           <div className="header__actions">
-            <a href="!#" className="action-icon actions__profile">
+            <a href="login" className="action-icon actions__profile">
               <img src={profileImg} alt="PROFILE" />
             </a>
 
@@ -41,14 +41,14 @@ function Header() {
             <nav className="body__nav">
               <ul>
                 <li>
-                  <a href="#">ФУТБОЛКИ</a>
+                  <a href="tshirts">ФУТБОЛКИ</a>
                 </li>
                 <li>
-                  <a href="#">ТОЛСТОВКИ</a>
+                  <a href="sweatshirts">ТОЛСТОВКИ</a>
                 </li>
 
                 <li>
-                  <a href="#">АКСЕССУАРЫ</a>
+                  <a href="accessories">АКСЕССУАРЫ</a>
                 </li>
               </ul>
             </nav>

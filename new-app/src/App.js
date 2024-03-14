@@ -1,13 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
-import {Button} from "react-bootstrap";
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Header from './Components/Header.jsx';
+
+
+import Mainpage from './Pages/Mainpage.jsx';
+import Tshirts from './Pages/Tshirts.jsx'
 
 
 function App() {
   return (
-   Header()
+  Tshirts()
   );
 }
 

@@ -1,0 +1,29 @@
+.h1 {
+  color: #fff;
+  font-size: 40px;
+  font-family: Garamond;
+  text-align: center;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  column-gap: 50px;
+  margin-top: 50px;
+  margin: 0 auto;
+}
+.thing {
+}
+
+.thing img {
+  border-radius: 55px;
+}
+
+.signature {
+  color: #fff;
+  font-size: 32px;
+  font-family: Garamond;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}

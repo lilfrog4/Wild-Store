@@ -1,9 +1,7 @@
-import './../Components/header.css'
-
-import logoImg from "./../img/logo.png";
-import profileImg from "./../img/profile.svg";
-import basketImg from "./../img/basket.svg";
-
+import "./header.css";
+import logoImg from "./../../img/logo.png";
+import profileImg from "./../../img/profile.svg";
+import basketImg from "./../../img/basket.svg";
 
 function Header() {
   return (
@@ -31,30 +29,8 @@ function Header() {
               <img src={basketImg} alt="basket" />
             </a>
           </div>
-
-          
-
-         
         </div>
-
-        <div className="body__content">
-            <nav className="body__nav">
-              <ul>
-                <li>
-                  <a href="#">ФУТБОЛКИ</a>
-                </li>
-                <li>
-                  <a href="#">ТОЛСТОВКИ</a>
-                </li>
-
-                <li>
-                  <a href="#">АКСЕССУАРЫ</a>
-                </li>
-              </ul>
-            </nav>
-          </div>
       </div>
-      
     </header>
   );
 }

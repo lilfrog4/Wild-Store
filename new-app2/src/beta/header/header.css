@@ -1,0 +1,58 @@
+.header__row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 150px;
+}
+.tit1 {
+  color: #fff;
+  font-size: 96px;
+  font-weight: 700;
+  font-family: "Garamond";
+  padding-top: 27px;
+}
+.tit2 {
+  text-align: center;
+
+  color: #fff;
+  font-family: Garamond;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.tit2 p {
+  display: inline;
+  color: #982e2e;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.header__actions {
+  display: flex;
+  column-gap: 20px;
+  vertical-align: middle;
+}
+.action-icon {
+  background-color: #fff;
+  border-radius: 50%;
+  width: 73px;
+  height: 73px;
+  position: relative;
+}
+
+.action-icon img {
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.actions__profile {
+}
+
+.actions__basket {
+}
