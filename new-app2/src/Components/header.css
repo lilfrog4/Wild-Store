@@ -1,4 +1,6 @@
-
+header{
+  position: relative;
+}
 
 .header__row {
   display: flex;
@@ -44,6 +46,7 @@
   width: 73px;
   height: 73px;
   position: relative;
+  cursor: pointer;
 }
 
 .action-icon img {
@@ -104,3 +107,18 @@ hr {
 
 .actions__basket {
 } */
+
+
+
+.shopCart{
+  position: absolute;
+  top : 120px;
+  right: 0;
+  width: 300px;
+  height: 768px;
+  background: #982E2E;
+  z-index: 100000;
+  
+  
+
+}

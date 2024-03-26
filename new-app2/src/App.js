@@ -12,7 +12,10 @@ import AddProductA from './Pages/AddProductA';
 import AddProductS1 from './Pages/AddProductS1';
 import AddProductS2 from './Pages/AddProductS2';
 
+
+
 function App() {
+  
   return (
     
    <div>
@@ -28,6 +31,7 @@ function App() {
       <Route path='productA' element={<AddProductA/>}/>
       <Route path='productS1' element={<AddProductS1/>}/>
       <Route path='productS2' element={<AddProductS2/>}/>
+      
     </Routes>
    </div>
   );

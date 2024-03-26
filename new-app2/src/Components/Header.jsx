@@ -3,9 +3,11 @@ import './../Components/header.css'
 import logoImg from "./../img/logo.png";
 import profileImg from "./../img/profile.svg";
 import basketImg from "./../img/basket.svg";
+import { useState } from 'react';
 
 
 function Header() {
+  let [cartOpen, setCartOpen] = useState(false);
   return (
     <header className="header">
       <div className="container">
@@ -27,9 +29,13 @@ function Header() {
               <img src={profileImg} alt="PROFILE" />
             </a>
 
-            <a href="!#" className="action-icon actions__basket">
+            <div onClick={() => setCartOpen(cartOpen = !cartOpen)} className={`action-icon actions__basket ${cartOpen && 'active'}`}>
               <img src={basketImg} alt="basket" />
-            </a>
+            </div>
+
+            {cartOpen && (
+              <div className='shopCart'></div>
+            )}
           </div>
 
           

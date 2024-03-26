@@ -1,10 +1,13 @@
 import './../Components/login.css'
 import logoImg from './../img/logo.png'
 import './../Components/header.css'
-
+import sht from "./../log" 
 const Login = () => {
+  
   return (
+    
     <div>
+      
       <header className="header">
         <div className="container">
           <div className="header__row">
@@ -13,6 +16,7 @@ const Login = () => {
                 <img src={logoImg} alt="LOGO" />
               </a>
             </div>
+
           </div>
         </div>
       </header>
@@ -26,6 +30,7 @@ const Login = () => {
             className="lf--input"
             placeholder="Your username"
             type="text"
+            
           />
         </div>
         <div className="flex-row">
@@ -37,17 +42,27 @@ const Login = () => {
           />
         </div>
        
-        <button className="lf--submit" type="submit">
+        <button id = "loginButton" className="lf--submit" type="submit">
           Log On
         </button>
+        
         <a className="lf--forgot" href="#">
           Already registered? Login
         </a>
-       
+        
       </form>
+        
     </div>
+    
   );
+  
+  
+  
+
+
+
 };
+
 
 
 export default Login;

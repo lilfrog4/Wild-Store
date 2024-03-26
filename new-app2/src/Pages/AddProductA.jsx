@@ -1,6 +1,7 @@
 import "./../Components/addproduct.css";
 import Header from "../Components/Header";
 import swear from './../img/сумка.jpg';
+import addToCart from "./../addToCart";
 function AddproductT() {
   return (
     <div>
@@ -19,6 +20,9 @@ function AddproductT() {
       </div>
     </div>
   );
+  addToCart();
+
+  
 }
 
 export default AddproductT;
